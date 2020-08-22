@@ -1,2 +1,3 @@
 # Project exclude paths
 /looplab/node_modules/
+/**/docs/
