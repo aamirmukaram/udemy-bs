@@ -15,7 +15,7 @@ const isProd = process.env.NODE_ENV === 'prod';
 
 const htmlFile = [
     'src/*.html'
-]
+];
 
 function html() {
     return gulp.src(htmlFile)
@@ -55,6 +55,11 @@ function img() {
         .pipe(gulp.dest('docs/img/'));
 }
 
+function fonts() {
+    return gulp.src('node_modules/@fortawesome/fontawesome-free/webfonts/*')
+        .pipe(gulp.dest('docs/webfonts/'));
+}
+
 function serve() {
     browserSync.init({
         open: true,
@@ -86,5 +91,5 @@ exports.css = css;
 exports.html = html;
 exports.js = js;
 exports.del = del;
-exports.serve = gulp.parallel(html, css, js, img, watchFiles, serve);
-exports.default = gulp.series(del, html, css, js, img);
+exports.serve = gulp.parallel(html, css, js, img, fonts, watchFiles, serve);
+exports.default = gulp.series(del, html, css, js, img, fonts);

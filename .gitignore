@@ -1,3 +1,8 @@
 # Project exclude paths
 /looplab/node_modules/
 /**/docs/
+/.idea/.gitignore
+/.idea/misc.xml
+/.idea/modules.xml
+/.idea/udemy-bs.iml
+/.idea/vcs.xml
