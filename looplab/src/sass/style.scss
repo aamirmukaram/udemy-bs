@@ -1,12 +1,14 @@
-$theme-colors: (
-        "primary": #ff3a52,
-        "dark": #000000
-);
+@import "bootstrap";
+@import "fontawesome";
 
-@import "node_modules/bootstrap/scss/bootstrap";
+* {
+  //border: 1px solid green !important;
+}
 
-@import "node_modules/@fortawesome/fontawesome-free/scss/fontawesome";
-@import "node_modules/@fortawesome/fontawesome-free/scss/brands";
-@import "node_modules/@fortawesome/fontawesome-free/scss/regular";
-@import "node_modules/@fortawesome/fontawesome-free/scss/solid";
-@import "node_modules/@fortawesome/fontawesome-free/scss/v4-shims";
+.navbar {
+  border-bottom: 3px solid #008ed6;
+  opacity: 0.8;
+}
+
+
+

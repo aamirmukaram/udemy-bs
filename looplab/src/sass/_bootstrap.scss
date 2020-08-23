@@ -1,0 +1,13 @@
+// Bootstrap variable overrides
+// Variables: node_modules/bootstrap/scss/variables
+// All the variables with defaults can be overridden.
+// https://getbootstrap.com/docs/4.0/getting-started/theming/#sass-options
+
+// Bootstrap
+@import "node_modules/bootstrap/scss/bootstrap-reboot";
+
+$body-bg: #333333;
+$body-color: #ffffff;
+
+@import "node_modules/bootstrap/scss/bootstrap";
+@import "node_modules/bootstrap/scss/bootstrap-grid";
