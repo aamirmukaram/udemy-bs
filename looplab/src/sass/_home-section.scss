@@ -1,0 +1,14 @@
+@import "colors";
+
+.home-section {
+  padding-top: 150px;
+  background-image: linear-gradient(rgba(black, .7), rgba(black, .7)), url("../img/home.jpg");
+  min-height: 700px;
+  background-size: cover;
+  background-position: center center;
+  background-attachment: fixed;
+
+  &__form {
+    opacity: 0.8;
+  }
+}
