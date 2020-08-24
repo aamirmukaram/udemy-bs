@@ -1,0 +1,14 @@
+{
+  "projects": {
+    "default": "bs-themes"
+  },
+  "targets": {
+    "bs-themes": {
+      "hosting": {
+        "looplab": [
+          "looplab"
+        ]
+      }
+    }
+  }
+}
