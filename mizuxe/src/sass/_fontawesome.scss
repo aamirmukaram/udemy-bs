@@ -1,0 +1,25 @@
+// Fontawesome variables
+// Variables: node_modules/@fortawesome/fontawesome-free/scss/_variables.scss
+// All the variables with defaults can be overridden.
+
+// Fontawesome
+@import "node_modules/@fortawesome/fontawesome-free/scss/fontawesome";
+@import "node_modules/@fortawesome/fontawesome-free/scss/brands";
+@import "node_modules/@fortawesome/fontawesome-free/scss/regular";
+@import "node_modules/@fortawesome/fontawesome-free/scss/solid";
+@import "node_modules/@fortawesome/fontawesome-free/scss/v4-shims";
+
+.fas.fa-check {
+  padding: 5px;
+  border-radius: 5px;
+
+  &.light-bg {
+    color: $cornflower-blue;
+    background: white;
+  }
+
+  &.dark-bg {
+    color: white;
+    background: $mine-shaft;
+  }
+}

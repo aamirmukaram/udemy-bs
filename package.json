@@ -4,6 +4,7 @@
   "description": "",
   "scripts": {
     "deploy:looplab": "firebase deploy --only hosting:looplab",
+    "deploy:mizuxe": "firebase deploy --only hosting:mizuxe",
     "assign-resource": "firebase target:apply hosting <target-name> <resource-name> // where the target is just a unique name you choose, and resource-name is the site"
   },
   "repository": {

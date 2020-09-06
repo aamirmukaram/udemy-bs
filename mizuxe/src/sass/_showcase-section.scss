@@ -1,0 +1,8 @@
+@import "colors";
+
+.showcase-section {
+  background-image: linear-gradient(rgba($boston-blue, .8), rgba($boston-blue, .8)), url("../img/mountains.jpg");
+  background-size: cover;
+  background-position: center center;
+  background-attachment: fixed;
+}

@@ -1,0 +1,21 @@
+.authors-section {
+  .card {
+    &:hover {
+      background: $primary;
+
+      .card-title {
+        color: $white;
+      }
+
+      .card-body .fab {
+        color: $white;
+      }
+    }
+
+    .card-img-top {
+      max-width: 50%;
+      margin: auto;
+      margin-top: -30px;
+    }
+  }
+}
