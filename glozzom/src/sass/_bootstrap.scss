@@ -1,0 +1,13 @@
+@import "colors";
+
+// Bootstrap variable overrides
+// Variables: node_modules/bootstrap/scss/variables
+// All the variables with defaults can be overridden.
+// https://getbootstrap.com/docs/4.0/getting-started/theming/#sass-options
+
+// Bootstrap
+
+//$primary: $boston-blue;
+
+@import "node_modules/bootstrap/scss/bootstrap-reboot";
+@import "node_modules/bootstrap/scss/bootstrap";

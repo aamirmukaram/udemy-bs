@@ -1,0 +1,260 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8"/>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+    <meta http-equiv="X-UA-Compatible" content="ie=edge"/>
+    <link rel="stylesheet" href="css/style.css"/>
+    <title>Glozzom</title>
+</head>
+<body>
+
+<!--NAVBAR-->
+<nav class="navbar navbar-expand-sm navbar-dark bg-dark fixed-top">
+    <div class="container">
+        <a class="navbar-brand" href="#">Glozzom</a>
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarToggler">
+            <span class="navbar-toggler-icon"></span>
+        </button>
+
+        <div class="collapse navbar-collapse" id="navbarToggler">
+            <ul class="navbar-nav ml-auto mt-2 mt-sm-0">
+                <li class="nav-item">
+                    <a class="nav-link active" href="index.html">home</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="about.html">about us</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="services.html">services</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="blog.html">blog</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="contact.html">contact</a>
+                </li>
+            </ul>
+        </div>
+    </div>
+</nav>
+
+<!--SHOWCASE SLIDER-->
+<section id="showcase-section">
+    <div id="carouselIndicators" class="carousel slide" data-ride="carousel">
+        <ol class="carousel-indicators">
+            <li data-target="#carouselIndicators" data-slide-to="0" class="active"></li>
+            <li data-target="#carouselIndicators" data-slide-to="1"></li>
+            <li data-target="#carouselIndicators" data-slide-to="2"></li>
+        </ol>
+        <div class="carousel-inner">
+            <div class="carousel-item carousel-image-1 active">
+                <div class="carousel-caption d-none d-sm-block text-right">
+                    <h1>Heading One</h1>
+                    <p class="lead">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Atque corporis cupiditate
+                        distinctio eligendi modi nisi rem voluptas, voluptatem. Nihil, odit.</p>
+                    <a href="" class="btn btn-danger btn-lg">Sign Up Now</a>
+                </div>
+            </div>
+
+            <div class="carousel-item carousel-image-2">
+                <div class="carousel-caption d-none d-sm-block text-center">
+                    <h1>Heading Two</h1>
+                    <p class="lead">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Atque corporis cupiditate
+                        distinctio eligendi modi nisi rem voluptas, voluptatem. Nihil, odit.</p>
+                    <a href="" class="btn btn-primary btn-lg">Learn More</a>
+                </div>
+            </div>
+
+            <div class="carousel-item carousel-image-3">
+                <div class="carousel-caption d-none d-sm-block text-right">
+                    <h1>Heading Three</h1>
+                    <p class="lead">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Atque corporis cupiditate
+                        distinctio eligendi modi nisi rem voluptas, voluptatem. Nihil, odit.</p>
+                    <a href="" class="btn btn-success btn-lg">Learn More</a>
+                </div>
+            </div>
+        </div>
+        <a class="carousel-control-prev" href="#carouselIndicators" role="button" data-slide="prev">
+            <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+            <span class="sr-only">Previous</span>
+        </a>
+        <a class="carousel-control-next" href="#carouselIndicators" role="button" data-slide="next">
+            <span class="carousel-control-next-icon" aria-hidden="true"></span>
+            <span class="sr-only">Next</span>
+        </a>
+    </div>
+</section>
+
+<!--HOME ICON SECTION-->
+<section id="home-icon-section" class="py-5">
+    <div class="container">
+        <div class="row">
+            <div class="col-md-4 text-center">
+                <i class="fas fa-cog fa-3x"></i>
+                <h3>Turning Gears</h3>
+                <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit.</p>
+            </div>
+            <div class="col-md-4 text-center">
+                <i class="fas fa-cloud fa-3x"></i>
+                <h3>Sending Data</h3>
+                <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit.</p>
+            </div>
+            <div class="col-md-4 text-center">
+                <i class="fas fa-cart-plus fa-3x"></i>
+                <h3>Making Money</h3>
+                <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit.</p>
+            </div>
+        </div>
+    </div>
+</section>
+
+<!--HOME HEADING SECTION-->
+<section id="home-heading-section" class="py-5 home-heading-section">
+    <div class="container">
+        <div class="row">
+            <div class="col">
+                <h2>Are You Ready To Get Started?</h2>
+                <p class="d-none d-md-block ">Lorem ipsum dolor sit amet, consectetur adipisicing elit. At aut
+                    blanditiis cum doloribus eveniet
+                    fugit id nisi perferendis saepe tempore.</p>
+            </div>
+        </div>
+    </div>
+</section>
+
+<!--INFO SECTION-->
+<section id="info-section" class="py-3">
+    <div class="container">
+        <div class="row">
+            <div class="col-md-6 align-self-center">
+                <h3>Lorem Ipsum</h3>
+                <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Alias dolor hic ipsum itaque maxime
+                    nesciunt perspiciatis possimus.</p>
+                <button type="button" class="btn btn-outline-danger btn-lg">Learn More</button>
+            </div>
+            <div class="col-md-6">
+                <img src="./img/laptop.png" class="img-fluid">
+            </div>
+        </div>
+    </div>
+</section>
+
+<!--VIDEO PLAY SECTION-->
+<section id="video-play-section" class="py-5 video-play-section">
+    <div class="container text-center text-white">
+        <a href="" data-toggle="modal" data-target="#videoModal">
+            <i class="fas fa-play fa-2x text-white"></i>
+        </a>
+
+        <h3>See What We Do</h3>
+    </div>
+</section>
+
+<!--PHOTO GALLERY SECTION-->
+<section id="photo-gallery-section" class="py-5">
+    <div class="container">
+        <h3 class="text-center">Photo Gallery</h3>
+        <p class="text-center">Check out our photos</p>
+
+        <div class="row mb-sm-4">
+            <div class="col-sm-4">
+                <a href="https://unsplash.it/1200/768.jpg?image=251" data-gallery="img-gallery" data-toggle="lightbox">
+                    <img src="https://unsplash.it/600.jpg?image=251" class="img-fluid">
+                </a>
+            </div>
+            <div class="col-sm-4">
+                <a href="https://unsplash.it/1200/768.jpg?image=252" data-gallery="img-gallery" data-toggle="lightbox">
+                    <img src="https://unsplash.it/600.jpg?image=252" class="img-fluid">
+                </a>
+            </div>
+            <div class="col-sm-4">
+                <a href="https://unsplash.it/1200/768.jpg?image=253" data-gallery="img-gallery" data-toggle="lightbox">
+                    <img src="https://unsplash.it/600.jpg?image=253" class="img-fluid">
+                </a>
+            </div>
+        </div>
+
+        <div class="row">
+            <div class="col-sm-4">
+                <a href="https://unsplash.it/1200/768.jpg?image=254" data-gallery="img-gallery" data-toggle="lightbox">
+                    <img src="https://unsplash.it/600.jpg?image=254" class="img-fluid">
+                </a>
+            </div>
+            <div class="col-sm-4">
+                <a href="https://unsplash.it/1200/768.jpg?image=255" data-gallery="img-gallery" data-toggle="lightbox">
+                    <img src="https://unsplash.it/600.jpg?image=255" class="img-fluid">
+                </a>
+            </div>
+            <div class="col-sm-4">
+                <a href="https://unsplash.it/1200/768.jpg?image=256" data-gallery="img-gallery" data-toggle="lightbox">
+                    <img src="https://unsplash.it/600.jpg?image=256" class="img-fluid">
+                </a>
+            </div>
+        </div>
+    </div>
+</section>
+
+<!--NEWSLETTER SECTION-->
+<section id="newsletter-section" class="py-5 bg-dark">
+    <div class="container">
+        <div class="row">
+            <div class="col text-center text-white">
+                <h3>Sign Up For Our Newletter</h3>
+
+                <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Accusantium consequuntur deleniti
+                    distinctio dolorum, fuga inventore ipsum non perspiciatis quod vel?</p>
+
+                <form>
+                    <div class="form-row justify-content-center">
+                        <div class="col-md-auto mb-3 mb-md-0">
+                            <input type="text" class="form-control" placeholder="Enter Name">
+                        </div>
+                        <div class="col-md-auto mb-3 mb-md-0">
+                            <input type="text" class="form-control" placeholder="Enter Email">
+                        </div>
+                        <div class="col-md-auto">
+                            <button class="btn btn-primary">Submit</button>
+                        </div>
+                    </div>
+                </form>
+            </div>
+        </div>
+    </div>
+</section>
+
+<!--FOOTER SECTION-->
+<section id="footer-section" class="py-3 bg-black">
+    <div class="container">
+        <div class="row">
+            <div class="col text-center text-white">
+                <p class="m-0">Copyright &copy; 2018 Glozzom</p>
+            </div>
+        </div>
+    </div>
+</section>
+
+<!-- Video Modal -->
+<div class="modal fade" id="videoModal" tabindex="-1" role="dialog">
+    <div class="modal-dialog">
+        <div class="modal-content">
+            <div class="modal-header">
+                <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                    <span aria-hidden="true">&times;</span>
+                </button>
+            </div>
+
+            <div class="modal-body">
+                <iframe id="youtubeVideoIframe" width="100%" height="350"
+                        src="https://www.youtube.com/embed/lCn-XCASn98?enablejsapi=1"></iframe>
+            </div>
+        </div>
+    </div>
+</div>
+
+<script src="js/jquery.min.js"></script>
+<script src="js/bootstrap.bundle.min.js"></script>
+<script src="js/ekko-lightbox.js"></script>
+<script src="js/all.js"></script>
+</body>
+</html>

@@ -1,0 +1,16 @@
+@import "bootstrap";
+@import "fontawesome";
+@import "node_modules/ekko-lightbox/dist/ekko-lightbox";
+@import "colors";
+@import "navbar";
+@import "showcase";
+@import "home-heading";
+@import "video-play";
+
+body {
+  margin-top: 56px;
+}
+
+.bg-black {
+  background: #000;
+}
