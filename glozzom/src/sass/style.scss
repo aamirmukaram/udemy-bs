@@ -18,3 +18,10 @@ body {
 .bg-black {
   background: #000;
 }
+
+.about-heading-section, .services-heading-section, .blog-heading-section {
+  background-image: url("../img/image1.jpg");
+  background-size: cover;
+  background-position: center center;
+  background-attachment: fixed;
+}
