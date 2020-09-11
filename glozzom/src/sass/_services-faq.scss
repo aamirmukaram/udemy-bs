@@ -1,0 +1,15 @@
+.services-faq-section {
+  .card {
+    background: #333;
+    color: #fff;
+    border-radius: 0;
+
+    .card-header .btn {
+      color: #fff;
+
+      &:hover {
+        text-decoration: none;
+      }
+    }
+  }
+}
