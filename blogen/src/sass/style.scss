@@ -1,0 +1,16 @@
+@import "bootstrap";
+@import "fontawesome";
+@import "node_modules/ekko-lightbox/dist/ekko-lightbox";
+@import "node_modules/slick-carousel/slick/slick.scss";
+@import "slick-theme";
+@import "colors";
+@import "navbar";
+
+body {
+  margin-top: 40px;
+}
+
+.bg-black {
+  background: #000;
+}
+

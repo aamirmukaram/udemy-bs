@@ -1,0 +1,180 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8"/>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+    <meta http-equiv="X-UA-Compatible" content="ie=edge"/>
+    <link rel="stylesheet" href="css/style.css"/>
+    <title>Blogen</title>
+</head>
+<body>
+
+<!--NAVBAR-->
+<nav class="navbar navbar-expand-sm navbar-dark bg-dark fixed-top py-0">
+    <div class="container">
+        <a class="navbar-brand" href="#">Blogen</a>
+        <button class="navbar-toggler p-0" type="button" data-toggle="collapse" data-target="#navbarToggler">
+            <span class="navbar-toggler-icon"></span>
+        </button>
+
+        <div class="collapse navbar-collapse" id="navbarToggler">
+            <ul class="navbar-nav mt-2 mt-sm-0">
+                <li class="nav-item">
+                    <a class="nav-link" href="index.html">dashboard</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="posts.html">posts</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link active" href="categories.html">categories</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="users.html">users</a>
+                </li>
+            </ul>
+
+            <ul class="navbar-nav ml-auto mt-2 mt-sm-0">
+                <li class="nav-item dropdown">
+                    <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button"
+                       data-toggle="dropdown">
+                        <i class="fas fa-user"></i> Welcome Brad
+                    </a>
+                    <div class="dropdown-menu" aria-labelledby="navbarDropdown">
+                        <a class="dropdown-item" href="#"> <i class="fas fa-user-circle"></i> Profile</a>
+                        <a class="dropdown-item" href="#"> <i class="fas fa-cog"></i> Settings</a>
+                    </div>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="">
+                        <i class="fas fa-user-alt-slash"></i> Logout
+                    </a>
+                </li>
+            </ul>
+        </div>
+    </div>
+</nav>
+
+<!--HEADER SECTION-->
+<header id="main-header" class="main-header py-2 bg-success">
+    <div class="container">
+        <div class="row">
+            <div class="col text-white">
+                <h1 class="m-0"><i class="fas fa-folder"></i> Categories</h1>
+            </div>
+        </div>
+    </div>
+</header>
+
+<!--SEARCH CATEGORIES SECTION-->
+<section class="py-4 mb-4 bg-light">
+    <div class="container">
+        <div class="row justify-content-end">
+            <div class="col-md-6">
+                <div class="input-group">
+                    <input type="text" class="form-control" id="searchPost" placeholder="Search Categories..." required>
+                    <div class="input-group-append">
+                        <button class="btn btn-success">Search</button>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
+
+<!--CATEGORIES SECTION-->
+<section>
+    <div class="container">
+        <div class="row">
+            <div class="col">
+                <div class="card">
+                    <div class="card-header">
+                        <h4 class="m-0">Latest Categories</h4>
+                    </div>
+                    <div class="table-responsive">
+                        <table class="table table-striped">
+                            <thead class="bg-black">
+                            <tr class="text-white">
+                                <th>#</th>
+                                <th>Title</th>
+                                <th>Date</th>
+                                <th></th>
+                            </tr>
+                            </thead>
+                            <tbody>
+                            <tr>
+                                <td>1</td>
+                                <td>Post One</td>
+                                <td>May 10 2018</td>
+                                <td>
+                                    <button class="btn btn-secondary"><i class="fas fa-arrow-right"></i> Details
+                                    </button>
+                                </td>
+                            </tr>
+                            <tr>
+                                <td>2</td>
+                                <td>Post Two</td>
+                                <td>May 11 2018</td>
+                                <td>
+                                    <button class="btn btn-secondary"><i class="fas fa-arrow-right"></i> Details
+                                    </button>
+                                </td>
+                            </tr>
+                            <tr>
+                                <td>3</td>
+                                <td>Post Three</td>
+                                <td>May 13 2018</td>
+                                <td>
+                                    <button class="btn btn-secondary"><i class="fas fa-arrow-right"></i> Details
+                                    </button>
+                                </td>
+                            </tr>
+                            <tr>
+                                <td>4</td>
+                                <td>Post Four</td>
+                                <td>May 15 2018</td>
+                                <td>
+                                    <button class="btn btn-secondary"><i class="fas fa-arrow-right"></i> Details
+                                    </button>
+                                </td>
+                            </tr>
+                            <tr>
+                                <td>5</td>
+                                <td>Post Five</td>
+                                <td>May 17 2018</td>
+                                <td>
+                                    <button class="btn btn-secondary"><i class="fas fa-arrow-right"></i> Details
+                                    </button>
+                                </td>
+                            </tr>
+                            <tr>
+                                <td>6</td>
+                                <td>Post Six</td>
+                                <td>May 20 2018</td>
+                                <td>
+                                    <button class="btn btn-secondary"><i class="fas fa-arrow-right"></i> Details
+                                    </button>
+                                </td>
+                            </tr>
+                            </tbody>
+                        </table>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
+
+<footer class="py-5 mt-5 bg-dark text-white text-center">
+    <div class="container">
+        <div class="row">
+            <div class="col text-muted">Copyright &copy; 2018 Blogen</div>
+        </div>
+    </div>
+</footer>
+
+<script src="js/jquery.min.js"></script>
+<script src="js/bootstrap.bundle.min.js"></script>
+<script src="js/ekko-lightbox.js"></script>
+<script src="js/all.js"></script>
+</body>
+</html>
