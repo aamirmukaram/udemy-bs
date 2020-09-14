@@ -6,7 +6,8 @@
     "deploy:looplab": "firebase deploy --only hosting:looplab",
     "deploy:mizuxe": "firebase deploy --only hosting:mizuxe",
     "deploy:glozzom": "firebase deploy --only hosting:glozzom",
-    "deploy:blogen-bs": "firebase deploy --only hosting:blogen-bs",
+    "deploy:blogen": "firebase deploy --only hosting:blogen-bs",
+    "deploy:portfoliogrid": "firebase deploy --only hosting:portfoliogrid-bs",
     "assign-resource": "firebase target:apply hosting <target-name> <resource-name> // where the target is just a unique name you choose, and resource-name is the site"
   },
   "repository": {

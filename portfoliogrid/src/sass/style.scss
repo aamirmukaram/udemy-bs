@@ -1,0 +1,28 @@
+@import "bootstrap";
+@import "fontawesome";
+@import "node_modules/ekko-lightbox/dist/ekko-lightbox";
+@import "colors";
+@import "navbar";
+
+.display-pic {
+  background-image: url("../img/person1.jpg");
+  background-size: cover;
+  background-position: center center;
+  min-height: 250px;
+
+  //@include media-breakpoint-up(sm) {
+  //  min-height: 176px;
+  //}
+}
+
+.bg-black {
+  background: #000;
+}
+
+[data-toggle="collapse"] {
+  cursor: pointer;
+
+  &:hover {
+    opacity: 0.8;
+  }
+}
